@@ -39,3 +39,6 @@ nav{flex-wrap:wrap;max-width:100%}
 .video-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:16px}
 .video-list .video-frame{min-width:0}
 @media(max-width:760px){.video-list{grid-template-columns:1fr}}
+
+.coming-soon{min-height:calc(100vh - 61px);display:flex;flex-direction:column;align-items:center;justify-content:center;padding-block:48px;gap:24px;text-align:center}
+.coming-soon h1{margin:0}
